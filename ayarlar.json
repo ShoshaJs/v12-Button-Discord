@@ -1,0 +1,32 @@
+{
+"bot": {
+
+"token": "token",
+"Owner": "OwnerID",
+"durum": "`Shosha Code",
+"statuss": "dnd", 
+"type": "LISTENING",
+"botSesKanal": "SesKanalID"
+},
+
+"Roles": {
+
+"Button1": "869582612090454036",
+"Button2": "869582612996427816",
+"Button3": "869582716260188191"
+
+},
+  
+"colors": {
+  
+"color1": "red",
+"color2": "blurple",
+"color3": "green"
+},
+"names": {
+  
+"name1": "Button1",
+"name2": "Button2",
+"name3": "Button3"
+}
+}
