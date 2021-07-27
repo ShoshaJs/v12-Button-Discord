@@ -89,4 +89,4 @@ client.on('clickButton', async (button) => {
 });
 
 
-client.login(ayar.bot.token);
+client.login(ayar.bot.token).catch(() => console.log('Token eksik veya hatalı lütfen tokeni kontrol ediniz :c'))
