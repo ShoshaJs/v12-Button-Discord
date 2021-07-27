@@ -39,9 +39,9 @@ let Button3 = new MessageButton()
 message.channel.send(`
 **Selam, Sunucumuzdaki "Eğlence" Rollerini Almak İçin Butonlara Tıklamanız Yeterlidir.**
 **__ROLLER__**;
-\`>\` <@&${ayar.Roles.Button1}>
-\`>\` <@&${ayar.Roles.Button2}>
-\`>\` <@&${ayar.Roles.Button3}>
+\`->\` <@&${ayar.Roles.Button1}>
+\`->\` <@&${ayar.Roles.Button2}>
+\`->\` <@&${ayar.Roles.Button3}>
 `, { 
   buttons: [ Button1, Button2, Button3]
 });
