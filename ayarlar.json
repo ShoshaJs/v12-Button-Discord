@@ -11,9 +11,9 @@
 
 "Roles": {
 
-"Button1": "869582612090454036",
-"Button2": "869582612996427816",
-"Button3": "869582716260188191"
+"Button1": "Button1RolID",
+"Button2": "Button2RolID",
+"Button3": "Button3RolID"
 
 },
   
@@ -25,8 +25,8 @@
 },
 "names": {
   
-"name1": "Button1",
-"name2": "Button2",
-"name3": "Button3"
+"name1": "Button1Adı",
+"name2": "Button2Adı",
+"name3": "Button3Adı"
 }
 }
