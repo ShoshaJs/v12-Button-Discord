@@ -8,8 +8,8 @@ Sorun olursa `Shosha#0023 eklersiniz.
 
 Glitch kullananlar ve tokeni .env kısmına atacaklar client.login(process.env.token) şeklinde değiştirin.
 
-Ayarlar.json emoji kısmına isteğe göre karakterde ekleyebilirsiniz.
-Ekleyeceğiniz emoji sunucuda bulunmalıdır!
+Ayarlar.json emoji kısmına isteğe göre karakter de ekleyebilirsiniz.
+Ekleyeceğiniz emojiler sunucuda bulunmalıdır!
 
 Star atmayı unutmayın canlar.🤗
 
