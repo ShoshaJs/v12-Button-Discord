@@ -37,7 +37,7 @@ let Button3 = new MessageButton()
 
 //Button Mesaj ve Ayar Kısmı
 message.channel.send(`
-${ayar.emojis.messageemoji} **Selam, Sunucumuzdaki "Eğlence" Rollerini Almak İçin Butonlara Tıklamanız Yeterlidir.**
+${ayar.emojis.messageemoji} ${ayar.names.text}
 **__ROLLER__**;
 ${ayar.emojis.emoji1} <@&${ayar.Roles.Button1}>
 ${ayar.emojis.emoji2} <@&${ayar.Roles.Button2}>
