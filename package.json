@@ -1,7 +1,7 @@
 {
-  "name": "hello-node",
+  "name": "button-rol",
   "version": "0.0.1",
-  "description": "A simple Node app built on fastify, instantly up and running.",
+  "description": "Button ile rol ver rol al.",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
