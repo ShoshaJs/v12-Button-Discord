@@ -7,8 +7,8 @@ const ayar = require('./ayarlar.json');
 client.on('ready', async => {
   client.user.setPresence({ activity: { name: ayar.bot.durum, type: ayar.bot.type }, status: `${ayar.bot.statuss}` });
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: ${client.user.username} ismi ile giriş yapıldı!`);
-  let BotSesKanalı = client.channels.cache.get(ayar.bot.botSesKanal);
-  if (BotSesKanalı) BotSesKanalı.join().catch(err => console.error("Bot Ses Kanalına Bağlanamadı!"));
+  let voice = client.channels.cache.get(ayar.bot.botSesKanal);
+  if (voice) voice.join().catch(err => console.error("Bot Ses Kanalına Bağlanamadı!"));
 })
 
 client.on("message", (message) => {
