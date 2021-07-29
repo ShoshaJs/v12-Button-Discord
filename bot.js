@@ -20,18 +20,21 @@ if (message.content !== "!button" || message.author.id === ayar.bot.Owner || mes
 // Button1
 let Button1 = new MessageButton()
   .setStyle(ayar.colors.color1) 
+  .setEmoji(ayar.emojis.Emoji1)
   .setLabel(ayar.names.name1)
   .setID('Button1'); 
 
 // Button2
 let Button2 = new MessageButton()
-  .setStyle(ayar.colors.color2) 
+  .setStyle(ayar.colors.color2)
+  .setEmoji(ayar.emojis.Emoji2) 
   .setLabel(ayar.names.name2) 
   .setID('Button2');
 
 // Button3
 let Button3 = new MessageButton()
   .setStyle(ayar.colors.color3) 
+  .setEmoji(ayar.emojis.Emoji3)
   .setLabel(ayar.names.name3) 
   .setID('Button3'); 
 
