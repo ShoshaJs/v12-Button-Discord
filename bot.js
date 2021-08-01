@@ -1,7 +1,5 @@
 const { Discord, MessageEmbed ,Client } = require('discord.js');
 const client = new Client();
-const embed = new Discord.MessageEmbed()
-.setColor('RANDOM')
 const { MessageButton } = require('discord-buttons')(client);
 const moment = require('moment');
 const ayar = require('./ayarlar.json');
@@ -38,7 +36,7 @@ let Button3 = new MessageButton()
   .setID('Button3'); 
 
 //Button Mesaj ve Ayar Kısmı
-message.channel.send(embed.setDescription(`
+message.channel.send(`
 ${ayar.emojis.messageemoji} ${ayar.names.text}
 **__ROLLER__**;
 ${ayar.emojis.emoji1} <@&${ayar.Roles.Button1}>
