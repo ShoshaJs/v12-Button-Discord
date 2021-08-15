@@ -15,7 +15,7 @@ client.on('ready', async => {
 client.on("message", (message) => {
 
 
-if (message.content !== "!button" || message.author.id === ayar.bot.Owner || message.author.bot) return;
+if (message.content !== "!button" || message.author.id !=== ayar.bot.Owner || message.author.bot) return;
 //Button İsim Renk ID
 
 // Button1
